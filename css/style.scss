@@ -4,7 +4,9 @@ $cinza: #ccc;
 $preto: #000;
 $branco: #fff;
 $vermelho: #F00;
-$asidepadrao:#1F1E1E;
+$asidepadrao: #1F1E1E;
+$colortextodefault: #505050;
+$rosa: #FF0069;
 $texto: Montserrat, Verdana, Tahoma;
 $titulo: Roboto, Tahoma;
 
@@ -17,15 +19,15 @@ header{
 body {
     padding:0px;
     margin:0px;
-    background-color: #fff;
+    background-color: $branco;
     font-size: 62.5%;
-    background: #fff !important;
+    background: $branco !important;
 }
 img {
     max-width: 100%;
 }
 #container {
-    width: 1349px;
+    width: 1078px;
     margin: 0px auto;
     display: table;
     margin-bottom: 15px;
@@ -61,14 +63,14 @@ img {
 #menu ul li a {
     padding: 14px 27px;
     display: inline-block;
-    color: #505050;
+    color: $colortextodefault;
     text-decoration: none;
     margin: 0px 0px;
     width: 100%;
 }
 #menu ul li a:hover {
     background-color: #272727;
-    color: #fff;
-    border-left: 3px solid #FF0069;
+    color: $branco;
+    border-left: 3px solid $rosa;
 }
 /*final do menu do menu*/
