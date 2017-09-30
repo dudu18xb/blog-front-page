@@ -39,40 +39,39 @@
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </nav>
+            </div>
         </aside>
 
         <!-- FINAL DO MENU -->
 
         <!-- COMEÇO TODO CONTEUDO -->
         <main>
-            <div id="container">
-                <?php
-                //print_r( $_GET );
+            <?php
+            //print_r( $_GET );
 
-                if (isset($_GET["p"])) {
-                    //se o parametro p existe
-                    $p = trim($_GET["p"]);
+            if (isset($_GET["p"])) {
+                //se o parametro p existe
+                $p = trim($_GET["p"]);
 
-                    //separar por / conteudo/111
-                    //pagina - produto
-                    //codigo - 111
-                    $p = explode("/", $p);
+                //separar por / conteudo/111
+                //pagina - produto
+                //codigo - 111
+                $p = explode("/", $p);
 
-                    //print_r ( $p );
-                    $pagina = $p[0]; //nome da página
-                } else {
+                //print_r ( $p );
+                $pagina = $p[0]; //nome da página
+            } else {
 
-                    $pagina = "home";
-                }
+                $pagina = "home";
+            }
 
-                $pagina = "pages/$pagina.php";
+            $pagina = "pages/$pagina.php";
 
-                if (file_exists($pagina))
-                    include $pagina;
-                else
-                    include "pages/erro.php";
-                ?>
-            </div>
+            if (file_exists($pagina))
+                include $pagina;
+            else
+                include "pages/erro.php";
+            ?>
         </main>
         <!-- FINAL DO CONTEUDO -->
     </body>

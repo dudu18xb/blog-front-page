@@ -27,14 +27,15 @@ img {
     max-width: 100%;
 }
 #container {
-    width: 1078px;
+    width: 1008px;
     margin: 0px auto;
     display: table;
     margin-bottom: 15px;
-    margin-top: -15px;
+    margin-top: 0px;
 }
 .aside-bar {
     width: 260px;
+    height: 1000px;
     float: left;
     background: $asidepadrao;
 }
@@ -74,3 +75,67 @@ img {
     border-left: 3px solid $rosa;
 }
 /*final do menu do menu*/
+
+/*pagina home*/
+.container-conteudo {
+    margin-top: 50px;
+}
+.background-header {
+    background-color: #F2F2F2;
+}
+.background-body {
+    background-color: #F2F2F2;
+}
+.navbar-form .input-group {
+    top: 20px;
+}
+.titulo-page-header h1 {
+    color: #B2B2B2 !important;
+
+}
+.titulo-page-header p {
+    color: #C6C6C6 !important;
+}
+.titulo-page-conteudo-home h1 {
+    color: #565656;
+    font-size: 1.9em !important;
+    font-weight: 600 !important;
+}
+.titulo-page-conteudo-home p {
+    color: #C6C6C6 !important;
+    color: #C6C6C6 !important;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.titulo-page-conteudo-conteudo {
+    margin-top: 30px;
+}
+.titulo-page-conteudo-conteudo p {
+    color: #565656 !important;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: justify;
+}
+.icon-style {
+    width: 50px;
+    height: 50px;
+    margin-top: 51px;
+    float: left;
+    text-align: center;
+    background-color: $rosa;
+}
+.icon-style i {
+    color: $branco;
+    font-size: 2.7em;
+    padding-top: 5px;
+}
+.titulo-page-conteudo-home{
+    width: 43%;
+    float: left;
+    margin: 44px 10px 44px 18px;
+}
+.titulo-page-conteudo {
+    width: 100%;
+    float: left;
+}
+
