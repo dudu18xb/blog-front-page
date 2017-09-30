@@ -63,12 +63,16 @@ img {
   color: #505050;
   text-decoration: none;
   margin: 0px 0px;
-  width: 100%; }
+  width: 100%;
+  font-size: 1.3em; }
 
 #menu ul li a:hover {
   background-color: #272727;
   color: #fff;
   border-left: 3px solid #FF0069; }
+
+#menu .fa {
+  margin-right: 16px; }
 
 /*final do menu do menu*/
 /*pagina home*/

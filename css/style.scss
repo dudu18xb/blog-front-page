@@ -68,11 +68,15 @@ img {
     text-decoration: none;
     margin: 0px 0px;
     width: 100%;
+    font-size: 1.3em;
 }
 #menu ul li a:hover {
     background-color: #272727;
     color: $branco;
     border-left: 3px solid $rosa;
+}
+#menu .fa {
+    margin-right: 16px;
 }
 /*final do menu do menu*/
 

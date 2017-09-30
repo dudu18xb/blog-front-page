@@ -8,7 +8,6 @@
         <link rel="stylesheet" type="text/css" href="css/lightbox.min.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!-- BOOTSTRAP-->
         <!-- plugins -->
-        <link rel="stylesheet" type="text/css" href="css/component.css">
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -32,10 +31,10 @@
             <div class="menu-asidebar">
                 <nav id="menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Missão</a></li>
-                        <li><a href="#">Links</a></li>
+                        <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="#"><i class="fa fa-user"></i> Lista de Dados</a></li>
+                        <li><a href="#"><i class="fa fa-edit"></i> Alterar Dados</a></li>
+                        <li><a href="#"><i class="fa fa-newspaper-o"></i> Notícias</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </nav>
