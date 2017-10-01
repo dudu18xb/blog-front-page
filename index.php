@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/lightbox.min.css"> <!-- MEU ESTILO PESSOAL DO CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!-- BOOTSTRAP-->
+        <link rel="stylesheet" type="text/css" href="css/animate.css"> <!-- BOOTSTRAP-->
         <!-- plugins -->
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
@@ -59,7 +60,7 @@
     </head>
     <body>
         <!-- COMEÇO DO MENU ASIDE BAR -->
-        <aside class="aside-bar">
+        <aside class="aside-bar wow fadeInLeft">
             <div class="photo-users">
                 <img class="img-circle" src="images/imgusers.jpg">
             </div>

@@ -2,13 +2,13 @@
     <div id="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="titulo-page-header">
+                <div class="titulo-page-header wow fadeIn">
                     <h1>Home</h1>
                     <p>Tela de inicio do site.</p>
                 </div>
             </div>
             <div class="col-md-6">
-                <form name="form1" class="navbar-form navbar-right">
+                <form name="form1" class="navbar-form navbar-right wow fadeInRight">
                     <div class="input-group input-group">
                         <input type="text"
                                placeholder="Buscar..."
@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<div class="container-conteudo">
+<div class="container-conteudo wow fadeInRight">
     <div id="container">
         <div class="row background-body">
             <div class="icon-style-rosa">

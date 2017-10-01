@@ -2,13 +2,13 @@
     <div id="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="titulo-page-header">
+                <div class="titulo-page-header wow fadeIn">
                     <h1>Notícia</h1>
                     <p>Confira as notícias abaixo</p>
                 </div>
             </div>
             <div class="col-md-6">
-                <form name="form1" class="navbar-form navbar-right">
+                <form name="form1" class="navbar-form navbar-right wow fadeInRight">
                     <div class="input-group input-group">
                         <input type="text"
                                placeholder="Buscar..."
@@ -28,7 +28,7 @@
 
 <div class="container-conteudo">
     <div id="container">
-        <div class="row background-body">
+        <div class="row background-body wow fadeInRight">
             <div class="icon-style-vermelho">
                 <i class="fa fa-video-camera"></i>
             </div>
@@ -49,7 +49,7 @@
     <div class="container-conteudo">
         <div id="container">
             <div class="row">
-                <div class="thumb-content col-md-4 background-body">
+                <div class="thumb-content col-md-4 background-body wow fadeIn">
                     <div class="icon-style-azul">
                         <i class="fa fa-photo"></i>
                     </div>
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="thumb-content col-md-4 background-body">
+                <div class="thumb-content col-md-4 background-body wow fadeIn">
                     <div class="icon-style-azul">
                         <i class="fa fa-photo"></i>
                     </div>
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="thumb-content col-md-4 background-body">
+                <div class="thumb-content col-md-4 background-body wow fadeIn">
                     <div class="icon-style-azul">
                         <i class="fa fa-photo"></i>
                     </div>
