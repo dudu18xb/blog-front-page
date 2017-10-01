@@ -29,14 +29,14 @@
 <div class="container-conteudo">
     <div id="container">
         <div class="row background-body">
-            <div class="icon-style">
+            <div class="icon-style-rosa">
                 <i class="fa fa-home"></i>
             </div>
-            <div class="titulo-page-conteudo-home">
+            <div class="titulo-page-conteudo-thumbnail">
                 <h1>Olá Usuario Bem Vindo</h1>
                 <p>Data: 29/09/2017</p>
 
-                <div class="titulo-page-conteudo-conteudo">
+                <div class="titulo-page-conteudo-thumbnail">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna sit amet metus pulvinar pretium vulputate eget lacus. Integer sollicitudin, ante vitae porttitor feugiat, dolor dui venenatis ex, non rutrum tortor risus eget metus. Ut ex massa, tempor pellentesque arcu at, lacinia finibus odio.</p>
                 </div>
             </div>

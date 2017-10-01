@@ -7,6 +7,8 @@ $vermelho: #F00;
 $asidepadrao: #1F1E1E;
 $colortextodefault: #505050;
 $rosa: #FF0069;
+$azulclaro: #4ABAFC;
+$vermelhoicon: #F34E58;
 $texto: Montserrat, Verdana, Tahoma;
 $titulo: Roboto, Tahoma;
 
@@ -82,7 +84,7 @@ img {
 
 /*pagina home*/
 .container-conteudo {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .background-header {
     background-color: #F2F2F2;
@@ -93,12 +95,10 @@ img {
 .navbar-form .input-group {
     top: 20px;
 }
-.titulo-page-header h1 {
-    color: #B2B2B2 !important;
-
-}
-.titulo-page-header p {
-    color: #C6C6C6 !important;
+.titulo-page-conteudo-home{
+    width: 30%;
+    float: left;
+    margin: 44px 10px 44px 18px;
 }
 .titulo-page-conteudo-home h1 {
     color: #565656;
@@ -107,20 +107,62 @@ img {
 }
 .titulo-page-conteudo-home p {
     color: #C6C6C6 !important;
-    color: #C6C6C6 !important;
     font-size: 1.2em;
     font-weight: 300;
+}
+.titulo-page-header h1 {
+    color: #B2B2B2 !important;
+
+}
+.titulo-page-header p {
+    color: #C6C6C6 !important;
 }
 .titulo-page-conteudo-conteudo {
     margin-top: 30px;
 }
 .titulo-page-conteudo-conteudo p {
-    color: #565656 !important;
+    color: $preto !important;
     font-size: 1.2em;
     font-weight: 300;
     text-align: justify;
 }
-.icon-style {
+/*content*/
+.titulo-page-conteudo-thumbnail{
+    width: 30%;
+    float: left;
+    margin: 44px 10px 44px 18px;
+}
+.titulo-page-conteudo-thumbnail h1 {
+    color: #565656;
+    font-size: 1.9em !important;
+    font-weight: 600 !important;
+}
+.titulo-page-conteudo-thumb p {
+    color: $preto !important;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.titulo-page-conteudo-thumb a {
+    color: $rosa;
+    font-size: 1.0em;
+    font-weight: 300;
+    text-decoration: none;
+}
+.titulo-page-conteudo-thumb a:hover {
+    color: $azulclaro;
+    text-decoration: none;
+}
+.titulo-page-conteudo-thumbnail {
+    width: 70%;
+    float: left;
+}
+.video-conteudo-home{
+    width: 59%;
+    float: left;
+    margin: 0px 0px 0px 15px;
+}
+/*ICONES CORES INICIO*/
+.icon-style-rosa {
     width: 50px;
     height: 50px;
     margin-top: 51px;
@@ -128,18 +170,46 @@ img {
     text-align: center;
     background-color: $rosa;
 }
-.icon-style i {
+.icon-style-rosa i {
     color: $branco;
     font-size: 2.7em;
     padding-top: 5px;
 }
-.titulo-page-conteudo-home{
-    width: 43%;
+.icon-style-azul {
+    width: 50px;
+    height: 50px;
+    margin-top: 51px;
     float: left;
-    margin: 44px 10px 44px 18px;
+    text-align: center;
+    background-color: $azulclaro;
 }
-.titulo-page-conteudo {
-    width: 100%;
+.icon-style-azul i {
+    color: $branco;
+    font-size: 2.1em;
+    padding-top: 11px;
+}
+.icon-style-vermelho {
+    width: 50px;
+    height: 50px;
+    margin-top: 51px;
     float: left;
+    text-align: center;
+    background-color: $vermelhoicon;
 }
+.icon-style-vermelho i {
+    color: $branco;
+    font-size: 2.2em;
+    padding-top: 10px;
+}
+/*ICONES CORES FINAL*/
 
+/*mechendo nas thuumbnail*/
+.thumb-content.col-md-4 {
+    padding-left: 0px !important;
+    margin-right: 20px !important;
+    padding-right: 0px !important;
+    width: 32.04% !important;
+}
+.thumb-content.col-md-4:nth-child(3) {
+    margin-right: 0px !important;
+}
