@@ -1,5 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto';
 
+@font-face{font-family:'Montserrat Hairline';font-style:normal;font-weight:400;src:local('Montserrat Hairline'),local('Montserrat-Hairline'),url(http://allfont.es/cache/fonts/montserrat-hairline_2c5c1d56419aab19913d7c7f93fee7f1.woff) format('woff'),url(http://allfont.es/cache/fonts/montserrat-hairline_2c5c1d56419aab19913d7c7f93fee7f1.ttf) format('truetype');}
+
 $cinza: #ccc;
 $preto: #000;
 $branco: #fff;
@@ -99,36 +101,43 @@ img {
 .titulo-page-conteudo-home{
     width: 30%;
     float: left;
-    margin: 44px 10px 44px 18px;
+    margin: 44px 10px 0px 18px;
 }
 .titulo-page-conteudo-home h1 {
-    color: #565656;
+    color: #475055;
     font-size: 1.9em !important;
     font-weight: 600 !important;
 }
 .titulo-page-conteudo-home p {
-    color: #C6C6C6 !important;
-    font-size: 1.2em;
-    font-weight: 300;
+    color: #a3abaf !important;
+    font-size: 1.1em;
+    font-weight: 900;
+    font-family: Montserrat Hairline;
 }
 .titulo-page-header h1 {
-    color: #B2B2B2 !important;
+    color: #666666 !important;
+    font-family: Montserrat Hairline;
+    font-weight: normal;
 
 }
 .titulo-page-header p {
-    color: #C6C6C6 !important;
+    color: #acacac !important;
+    font-family: unset;
 }
 .titulo-page-conteudo-conteudo {
     margin-top: 30px;
 }
 .titulo-page-conteudo-conteudo p {
-    color: $preto !important;
+    color: #475055 !important;
     font-size: 1.2em;
-    font-weight: 300;
-    text-align: justify;
+    font-weight: 900;
+    font-family: Montserrat Hairline;
 }
 .titulo-page-conteudo-thumbnail p{
-    color: #C6C6C6 !important;
+    color: #a3abaf !important;
+    font-size: 1.1em;
+    font-weight: 900;
+    font-family: Montserrat Hairline;
 }
 /*content*/
 .titulo-page-conteudo-thumbnail{
@@ -143,13 +152,14 @@ img {
 }
 .titulo-page-conteudo-thumb p {
     color: $preto !important;
-    font-size: 1.2em;
-    font-weight: 300;
+    font-size: 1.1em;
+    font-weight: 900;
+    font-family: Montserrat Hairline;
 }
 .titulo-page-conteudo-thumb a {
     color: $rosa;
     font-size: 1.0em;
-    font-weight: 300;
+    font-weight: 900;
     text-decoration: none;
 }
 .titulo-page-conteudo-thumb a:hover {
@@ -161,7 +171,7 @@ img {
     float: left;
 }
 .video-conteudo-home{
-    width: 59%;
+    width: 61.0%;
     float: left;
     margin: 0px 0px 0px 15px;
 }
@@ -246,13 +256,14 @@ img {
 }
 .titulo-page-conteudo-noticias p {
     color: $preto !important;
-    font-size: 1.2em;
-    font-weight: 300;
+    font-size: 1.1em;
+    font-weight: 900;
+    font-family: Montserrat Hairline;
 }
 .conteudo-noticias a {
     color: $rosa;
     font-size: 1.0em;
-    font-weight: 300;
+    font-weight: 900;
     text-decoration: none;
 }
 .conteudo-noticias a:hover {

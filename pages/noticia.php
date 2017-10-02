@@ -37,7 +37,7 @@
                 <p>24 minutes ago</p>
 
                 <div class="titulo-page-conteudo-conteudo">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna sit amet metus pulvinar pretium vulputate eget lacus. Integer sollicitudin, ante vitae porttitor feugiat, dolor dui venenatis ex, non rutrum tortor risus eget metus. Ut ex massa, tempor pellentesque arcu at, lacinia finibus odio.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna sit amet metus pulvinar pretium vulputate eget lacus.</p>
                 </div>
             </div>
             <div class="video-conteudo-home">

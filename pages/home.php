@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="titulo-page-header wow fadeIn">
-                    <h1>Home</h1>
+                    <h1>HOME</h1>
                     <p>Tela de inicio do site.</p>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                 <i class="fa fa-home"></i>
             </div>
             <div class="titulo-page-conteudo-home">
-                <h1>Olá Usuario Bem Vindo</h1>
+                <h1>Best Story You have ever herard</h1>
                 <p>Data: 29/09/2017</p>
 
                 <div class="titulo-page-conteudo-conteudo">
