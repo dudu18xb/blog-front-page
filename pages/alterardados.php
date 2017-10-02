@@ -35,9 +35,9 @@
                 <div class="col-lg-12">
                     <label for="titulo" class="control-label"> Titulo:</label>
                     <section class="panel">
-                            <div class="panel-body">
-                                <input type="text" value="" class="form-control" placeholder="Preencha um titulo">
-                            </div>
+                        <div class="panel-body">
+                            <input type="text" value="" class="form-control" placeholder="Preencha um titulo">
+                        </div>
                     </section>
                 </div>
                 <div class="col-lg-12">
@@ -49,31 +49,31 @@
                     </section>
                 </div>
                 <div class="col-lg-12">
-                        <label for="titulo" class="control-label"> Titulo:</label>
-                        <section class="panel">
-                                <div class="panel-body">
-                                    <input name="foto[]" type="file" multiple class="form-control" value="#">
-                                Selecione um arquivo JPG)
-                                </div>
-                        </section>
-                    </div>
-                    <div class="col-lg-6">
-                        <label for="data" class="control-label"> Data:</label>
-                        <section class="panel">
-                            <div class="panel-body">
-                                <input type="text"
-                                       name="data" required
-                                       value=""
-                                       class="form-control"
-                                       data-mask="99/99/9999" placeholder="Preencha a data">
-                            </div>
-                        </section>
-                    </div>
-                    <div class="col-lg-12">
-                        <button type="submit" class="btn btn-success">Salvar Dados</button>
-                    </div>
+                    <label for="titulo" class="control-label"> Titulo:</label>
+                    <section class="panel">
+                        <div class="panel-body">
+                            <input name="foto[]" type="file" multiple class="form-control" value="#">
+                            Selecione um arquivo JPG)
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-6">
+                    <label for="data" class="control-label"> Data:</label>
+                    <section class="panel">
+                        <div class="panel-body">
+                            <input type="text"
+                                   name="data" required
+                                   value=""
+                                   class="form-control"
+                                   data-mask="99/99/9999" placeholder="Preencha a data">
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-12">
+                    <button type="submit" class="btn btn-success">Salvar Dados</button>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </form>

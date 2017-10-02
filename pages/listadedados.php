@@ -34,25 +34,43 @@
                 <i class="fa fa-list"></i>
             </div>
             <div class="titulo-page-conteudo-lista-dados">
-                        <table class="table table-bordered table-hover table-striped">
-            <thead>
-            <th width="10%" style="text-align: center;">Foto</th>
-            <th style="text-align: center;" width="10%">Titulo</th>
-            <th style="text-align: center;" width="10%">Data</th>
-            <th width="15%" style="text-align: center;">Opções</th>
-            </thead>
-            <tr>
-                <td>
-                    <img src="images/foto01.jpg" class="img"/>
-                </td>
-                <td>Best story you have ever heard</td>
-                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna sit amet metus pulvinar pretium vulputate eget lacus.</td>
-                <td style="text-align: center;">
-                    <a href="#" class='btn btn-danger'><i class='glyphicon glyphicon-trash'></i> Excluir</a>
-                    <a href="#" class='btn btn-primary'><i class='glyphicon glyphicon-edit'></i> Editar</a>
-                </td>
-            </tr>
-        </table>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                    <th width="10%" style="text-align: center;">Foto</th>
+                    <th style="text-align: center;" width="10%">Titulo</th>
+                    <th style="text-align: center;" width="10%">Data</th>
+                    <th width="15%" style="text-align: center;">Opções</th>
+                    </thead>
+                    <tr>
+                        <td>
+                            <img src="images/foto01.jpg" class="img"/>
+                        </td>
+                        <td>Best story you have ever heard</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna sit amet metus pulvinar pretium vulputate eget lacus.</td>
+                        <td style="text-align: center;">
+                            <a href="#" class='btn btn-danger'><i class='glyphicon glyphicon-trash'></i> Excluir</a>
+                            <a href="#" class='btn btn-primary'><i class='glyphicon glyphicon-edit'></i> Editar</a>
+                        </td>
+                    </tr>
+                </table>            <table class="table table-bordered table-hover table-striped">
+                    <thead>
+                    <th width="10%" style="text-align: center;">Foto</th>
+                    <th style="text-align: center;" width="10%">Titulo</th>
+                    <th style="text-align: center;" width="10%">Data</th>
+                    <th width="15%" style="text-align: center;">Opções</th>
+                    </thead>
+                    <tr>
+                        <td>
+                            <img src="images/foto01.jpg" class="img"/>
+                        </td>
+                        <td>Best story you have ever heard</td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna sit amet metus pulvinar pretium vulputate eget lacus.</td>
+                        <td style="text-align: center;">
+                            <a href="#" class='btn btn-danger'><i class='glyphicon glyphicon-trash'></i> Excluir</a>
+                            <a href="#" class='btn btn-primary'><i class='glyphicon glyphicon-edit'></i> Editar</a>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
