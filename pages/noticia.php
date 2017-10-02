@@ -51,7 +51,7 @@
             <div class="row">
                 <div class="thumb-content col-md-4 background-body wow fadeIn">
                     <div class="icon-style-azul">
-                        <i class="fa fa-photo"></i>
+                        <i class="fa fa-camera"></i>
                     </div>
                     <div class="titulo-page-conteudo-thumbnail">
                         <h1>Best story you have ever heard</h1>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="thumb-content col-md-4 background-body wow fadeIn">
                     <div class="icon-style-azul">
-                        <i class="fa fa-photo"></i>
+                        <i class="fa fa-camera"></i>
                     </div>
                     <div class="titulo-page-conteudo-thumbnail">
                         <h1>Best story you have ever heard</h1>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="thumb-content col-md-4 background-body wow fadeIn">
                     <div class="icon-style-azul">
-                        <i class="fa fa-photo"></i>
+                        <i class="fa fa-camera"></i>
                     </div>
                     <div class="titulo-page-conteudo-thumbnail">
                         <h1>Best story you have ever heard</h1>
@@ -85,6 +85,37 @@
 
                         <div class="titulo-page-conteudo-thumb">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna sit amet metus pulvinar pretium vulputate eget lacus.<a href="#"> Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-conteudo">
+    <div id="container">
+        <div class="row background-body conteudo-noticias wow fadeInRight">
+            <img src="images/foto01.jpg" class="img"/>
+            <div class="icon-style-azulclaro1">
+                <i class="fa fa-newspaper-o"></i>
+            </div>
+            <div class="titulo-page-conteudo-noticias">
+                <h1>Best story you have ever heard</h1>
+
+                <div class="titulo-page-conteudo-conteudo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in magna sit amet metus pulvinar pretium vulputate eget lacus. Integer sollicitudin, ante vitae porttitor feugiat, dolor dui venenatis ex, non rutrum tortor risus eget metus. Ut ex massa, tempor pellentesque arcu at, lacinia finibus odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#"> Read more.</a></p>
+                </div>
+                <div class="titulo-page-conteudo-conteudo">
+                    <div class="informacoes-publico-centro">
+                        <div class="informacoes-publico">
+                            <i class="fa fa-share-square-o"></i> Shareds
+                        </div>
+                        <div class="informacoes-publico">
+                            <i class="fa fa-eye"></i> 3,152 Views
+                        </div>
+                        <div class="informacoes-publico">
+                            <i class="fa fa fa-comment"></i> 21 Comments
                         </div>
                     </div>
                 </div>

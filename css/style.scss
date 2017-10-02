@@ -8,6 +8,7 @@ $asidepadrao: #1F1E1E;
 $colortextodefault: #505050;
 $rosa: #FF0069;
 $azulclaro: #4ABAFC;
+$azulclaro1: #24CAC8;
 $vermelhoicon: #F34E58;
 $texto: Montserrat, Verdana, Tahoma;
 $titulo: Roboto, Tahoma;
@@ -178,6 +179,19 @@ img {
     font-size: 2.7em;
     padding-top: 5px;
 }
+.icon-style-azulclaro1 {
+    width: 50px;
+    height: 50px;
+    margin-top: 51px;
+    float: left;
+    text-align: center;
+    background-color: $azulclaro1;
+}
+.icon-style-azulclaro1 i {
+    color: $branco;
+    font-size: 2.1em;
+    padding-top: 12px;
+}
 .icon-style-azul {
     width: 50px;
     height: 50px;
@@ -215,4 +229,46 @@ img {
 }
 .thumb-content.col-md-4:nth-child(3) {
     margin-right: 0px !important;
+}
+/*mais noticias*/
+.conteudo-noticias {
+    width: 68%;
+}
+.titulo-page-conteudo-noticias{
+    width: 87.4%;
+    float: left;
+    margin: 44px 18px 44px 18px;
+}
+.titulo-page-conteudo-noticias h1 {
+    color: #565656;
+    font-size: 1.9em !important;
+    font-weight: 600 !important;
+}
+.titulo-page-conteudo-noticias p {
+    color: $preto !important;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.conteudo-noticias a {
+    color: $rosa;
+    font-size: 1.0em;
+    font-weight: 300;
+    text-decoration: none;
+}
+.conteudo-noticias a:hover {
+    color: $azulclaro;
+    text-decoration: none;
+}
+.informacoes-publico-centro {
+    width: 100%;
+}
+.informacoes-publico {
+    width: 33.333333333%;
+    float: left;
+    color: $preto !important;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.informacoes-publico i{
+    color: $azulclaro1;
 }
