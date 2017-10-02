@@ -29,17 +29,26 @@
     <div id="container">
         <fieldset>        
             <div class="row background-body wow fadeInRight">
-                <div class="col-lg-4">
-                    <label for="titulo" class="control-label"> Titulo</label>
+                <div class="col-lg-12">
+                    <label for="titulo" class="control-label"> Titulo:</label>
                     <section class="panel">
                         <div class="panel-body">
-                            <input type="text" value="" class="form-control">
+                            <input type="text" value="" class="form-control" placeholder="Preencha um titulo">
                         </div>
                     </section>
                 </div>
+                <div class="col-lg-12">
+                    <label for="titulo" class="control-label"> Texto:</label>
+                    <section class="panel">
+                        <div class="panel-body">
+                            <textarea type="text" value="" class="form-control" rows="6" cols="40"  maxlength="1000" style="resize: none;" placeholder="Escreva a Mensagem, Max de Caracteres: 1000"></textarea>
+                        </div>
+                    </section>
+                </div>
+            </div>
 
-
-                <div class="col-lg-5">
+            <div class="row background-body wow fadeInRight">
+                <div class="col-lg-6">
                     <label for="control-label"> Foto/Imagem: </label>
                     <section class="panel">
                         <div class="panel-body">
@@ -48,16 +57,15 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-6">
                     <label for="data" class="control-label"> Data:</label>
                     <section class="panel">
                         <div class="panel-body">
                             <input type="text"
                                    name="data" required
-                                   data-validation-required-message="Preencha a data"
                                    value=""
                                    class="form-control"
-                                   data-mask="99/99/9999">
+                                   data-mask="99/99/9999" placeholder="Preencha a data">
                         </div>
                     </section>
                 </div>
