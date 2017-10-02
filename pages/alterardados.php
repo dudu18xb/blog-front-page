@@ -27,54 +27,53 @@
 </div>
 <form name="form1" method="post" action="" enctype="multipart/form-data">
     <div id="container">
-        <fieldset>        
-            <div class="row background-body wow fadeInRight">
+        <div class="row background-body wow fadeInRight">
+            <div class="icon-style-azul">
+                <i class="fa fa-pencil"></i>
+            </div>
+            <div class="titulo-page-conteudo-alterar-dados">
                 <div class="col-lg-12">
                     <label for="titulo" class="control-label"> Titulo:</label>
                     <section class="panel">
-                        <div class="panel-body">
-                            <input type="text" value="" class="form-control" placeholder="Preencha um titulo">
-                        </div>
+                            <div class="panel-body">
+                                <input type="text" value="" class="form-control" placeholder="Preencha um titulo">
+                            </div>
                     </section>
                 </div>
                 <div class="col-lg-12">
                     <label for="titulo" class="control-label"> Texto:</label>
                     <section class="panel">
                         <div class="panel-body">
-                            <textarea type="text" value="" class="form-control" rows="6" cols="40"  maxlength="1000" style="resize: none;" placeholder="Escreva a Mensagem, Max de Caracteres: 1000"></textarea>
-                        </div>
-                    </section>
-                </div>
-            </div>
-
-            <div class="row background-body wow fadeInRight">
-                <div class="col-lg-6">
-                    <label for="control-label"> Foto/Imagem: </label>
-                    <section class="panel">
-                        <div class="panel-body">
-                            <input name="foto[]" type="file" multiple class="form-control" value="#">
-                            Selecione um arquivo JPG)
-                        </div>
-                    </section>
-                </div>
-                <div class="col-lg-6">
-                    <label for="data" class="control-label"> Data:</label>
-                    <section class="panel">
-                        <div class="panel-body">
-                            <input type="text"
-                                   name="data" required
-                                   value=""
-                                   class="form-control"
-                                   data-mask="99/99/9999" placeholder="Preencha a data">
+                            <textarea type="text" value="" class="form-control" rows="6" cols="40"  maxlength="1000" style="resize: none;" placeholder="Escreva a Texto, Max de Caracteres: 1000"></textarea>
                         </div>
                     </section>
                 </div>
                 <div class="col-lg-12">
-                    <button type="submit" class="btn btn-success">Salvar Dados</button>
+                        <label for="titulo" class="control-label"> Titulo:</label>
+                        <section class="panel">
+                                <div class="panel-body">
+                                    <input name="foto[]" type="file" multiple class="form-control" value="#">
+                                Selecione um arquivo JPG)
+                                </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="data" class="control-label"> Data:</label>
+                        <section class="panel">
+                            <div class="panel-body">
+                                <input type="text"
+                                       name="data" required
+                                       value=""
+                                       class="form-control"
+                                       data-mask="99/99/9999" placeholder="Preencha a data">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-12">
+                        <button type="submit" class="btn btn-success">Salvar Dados</button>
+                    </div>
                 </div>
-                <br>
             </div>
-
-        </fieldset>
+        </div>
     </div>
 </form>

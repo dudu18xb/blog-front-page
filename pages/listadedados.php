@@ -26,9 +26,15 @@
     </div>
 </div>
 
-<div id="container">
-    <div class="row background-body wow fadeInRight">
-        <table class="table table-bordered table-hover table-striped">
+
+<div class="container-conteudo wow fadeInRight">
+    <div id="container">
+        <div class="row background-body">
+            <div class="icon-style-azul">
+                <i class="fa fa-list"></i>
+            </div>
+            <div class="titulo-page-conteudo-lista-dados">
+                        <table class="table table-bordered table-hover table-striped">
             <thead>
             <th width="10%" style="text-align: center;">Foto</th>
             <th style="text-align: center;" width="10%">Titulo</th>
@@ -46,5 +52,8 @@
                     <a href="#" class='btn btn-primary'><i class='glyphicon glyphicon-edit'></i> Editar</a>
                 </td>
             </tr>
+        </table>
+            </div>
+        </div>
     </div>
 </div>

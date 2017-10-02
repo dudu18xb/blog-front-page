@@ -35,7 +35,7 @@ img {
 
 .aside-bar {
   width: 260px;
-  height: 1000px;
+  height: 1800px;
   float: left;
   background: #1F1E1E; }
 
@@ -275,5 +275,37 @@ img {
 
 .informacoes-publico i {
   color: #24CAC8; }
+
+.titulo-page-conteudo-alterar-dados {
+  width: 92%;
+  float: left;
+  margin: 44px 10px 0px 18px; }
+
+.titulo-page-conteudo-alterar-dados h1 {
+  color: #475055;
+  font-size: 1.9em !important;
+  font-weight: 600 !important; }
+
+.titulo-page-conteudo-alterar-dados p {
+  color: #a3abaf !important;
+  font-size: 1.1em;
+  font-weight: 900;
+  font-family: Montserrat Hairline; }
+
+.titulo-page-conteudo-lista-dados {
+  width: 92%;
+  float: left;
+  margin: 44px 10px 0px 18px; }
+
+.titulo-page-conteudo-lista-dados h1 {
+  color: #475055;
+  font-size: 1.9em !important;
+  font-weight: 600 !important; }
+
+.titulo-page-conteudo-lista-dados p {
+  color: #a3abaf !important;
+  font-size: 1.1em;
+  font-weight: 900;
+  font-family: Montserrat Hairline; }
 
 /*# sourceMappingURL=style.css.map */
