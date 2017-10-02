@@ -1,0 +1,72 @@
+<div class="background-header">
+    <div id="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="titulo-page-header wow fadeIn">
+                    <h1>Alterar Dados</h1>
+                    <p>Nesta tela você poderá efetuar a alteração de dados.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form name="form1" class="navbar-form navbar-right wow fadeInRight">
+                    <div class="input-group input-group">
+                        <input type="text"
+                               placeholder="Buscar..."
+                               class="form-control">
+                        <div class="input-group-btn">
+                            <button type="submit"
+                                    class="btn btn-default">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div> <!-- input-group-btn -->
+                    </div> <!-- input group -->
+                </form> <!-- form -->
+            </div>
+        </div>
+    </div>
+</div>
+<form name="form1" method="post" action="" enctype="multipart/form-data">
+    <div id="container">
+        <fieldset>        
+            <div class="row background-body wow fadeInRight">
+                <div class="col-lg-4">
+                    <label for="titulo" class="control-label"> Titulo</label>
+                    <section class="panel">
+                        <div class="panel-body">
+                            <input type="text" value="" class="form-control">
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class="col-lg-5">
+                    <label for="control-label"> Foto/Imagem: </label>
+                    <section class="panel">
+                        <div class="panel-body">
+                            <input name="foto[]" type="file" multiple class="form-control" value="#">
+                            Selecione um arquivo JPG)
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-3">
+                    <label for="data" class="control-label"> Data:</label>
+                    <section class="panel">
+                        <div class="panel-body">
+                            <input type="text"
+                                   name="data" required
+                                   data-validation-required-message="Preencha a data"
+                                   value=""
+                                   class="form-control"
+                                   data-mask="99/99/9999">
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-12">
+                    <button type="submit" class="btn btn-success">Salvar Dados</button>
+                </div>
+                <br>
+            </div>
+
+        </fieldset>
+    </div>
+</form>

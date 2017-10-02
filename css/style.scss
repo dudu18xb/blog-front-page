@@ -73,7 +73,7 @@ img {
     width: 100%;
     font-size: 1.3em;
 }
-#menu ul li a:hover {
+#menu ul li:hover a, ul li:active a{
     background-color: #272727;
     color: $branco;
     border-left: 3px solid $rosa;

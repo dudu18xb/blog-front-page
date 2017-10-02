@@ -17,6 +17,7 @@
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/jquery.vimeo.api.js"></script>
+        <script type="text/javascript" src="js/bootstrap-inputmask.min.js"></script>
         <script>
             new WOW().init();
             function mostraMenu() {
@@ -68,8 +69,8 @@
                 <nav id="menu">
                     <ul>
                         <li><a href="index.php"><i class="fa fa-home"></i> Home</a></li>
-                        <li><a href="#"><i class="fa fa-user"></i> Lista de Dados</a></li>
-                        <li><a href="#"><i class="fa fa-edit"></i> Alterar Dados</a></li>
+                        <li><a href="listadedados"><i class="fa fa-user"></i> Lista de Dados</a></li>
+                        <li><a href="alterardados"><i class="fa fa-edit"></i> Alterar Dados</a></li>
                         <li><a href="noticia"><i class="fa fa-newspaper-o"></i> Notícias</a></li>
                     </ul>
                 </nav>
